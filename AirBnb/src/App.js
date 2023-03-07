@@ -7,15 +7,10 @@ import Data from "./data";
 
 export default function App() {
   // console.log(Data);
-  const cardPage = Data.map((data) => (
-    <Card
-      key={data.id}
-      data={data}
-    />
-  ));
+  const cardPage = Data.map((data) => <Card key={data.id} data={data} />);
 
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <Hero />
       <section className="card-list">{cardPage}</section>

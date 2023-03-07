@@ -4,6 +4,13 @@
 
 body {
   margin: 0;
+  background-color: #0b2434;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+  background-color: #ffffff;
 }
 
 .navbar {
